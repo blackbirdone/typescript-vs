@@ -1,0 +1,20 @@
+{
+    // Linter Settings
+    "typescript.validate.enable": false,
+    "javascript.validate.enable": false,
+    "eslint.validate": ["typescript", "typescriptreact"],
+    "eslint.workingDirectories": ["./src"],
+    
+    // Autosave Settings
+    "fsdeploy.nodes": [
+        {
+            "source":"src/",
+            "target":"dist/",
+            "include":"**/*.*",
+            "exclude": "**/{min/*.*,*.ts}",
+            "deleteTargetOnDeploy": true
+        }
+    ],
+    "fsdeploy.deployOnSave": true,
+    "fsdeploy.deployWorkspaceOnSave": false
+}
