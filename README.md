@@ -1,4 +1,6 @@
 
+NPM auf dem System installieren
+
 # typescript-vs
 
 in vs studio öffnen und kurz warten dann
